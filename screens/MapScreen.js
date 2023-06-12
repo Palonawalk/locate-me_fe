@@ -12,7 +12,7 @@ import {
   import { useSelector, useDispatch } from 'react-redux';
   import { addPlace, importPlaces } from '../reducers/user';
   
-  const BACKEND_ADDRESS = 'https://locate-me-be.vercel.app/'; // Adresse IP de votre serveur backend à remplacer par la vôtre
+  const BACKEND_ADDRESS = 'https://locate-me-be-psi.vercel.app/'; // Adresse IP de votre serveur backend à remplacer par la vôtre
   
   export default function MapScreen() {
     const dispatch = useDispatch();
